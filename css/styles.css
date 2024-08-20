@@ -3,10 +3,17 @@ body {
   padding: 40px 40px 40px 40px;
   font-family: "Montserrat", sans-serif;
 }
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .wrapper {
   background: white;
   display: flex;
   flex-direction: row-reverse;
+  width: 1200px;
+  margin: 0 auto;
 }
 .main-content {
   padding-left: 88px;
@@ -66,4 +73,112 @@ body {
   font-size: 14px;
   line-height: 171%;
   color: #161d2a;
+}
+.my-prefession {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 121%;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.my-name {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 122%;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.my-descr {
+  ont-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  color: #595959;
+  margin-top: 0;
+}
+.my-info {
+  margin-bottom: 40px;
+}
+.my-project-title,
+.my-work-experience-title,
+.my-education-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 123%;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.my-project-item {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 171%;
+  color: #000;
+}
+.my-project-list {
+  padding-left: 16px;
+}
+.my-project-item-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #005fff;
+}
+.my-project-item-tech {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  color: #595959;
+}
+.my-project-container,
+.my-experience-container {
+  margin-bottom: 40px;
+}
+.my-work-experience-company {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 125%;
+  color: #000;
+}
+.my-work-experience-company-name {
+  color: #6d9bf5;
+}
+.my-work-experience-period,
+.my-education-period {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 125%;
+  color: #a8a8a8;
+  margin-bottom: 8px;
+}
+.my-work-experience-period-separator,
+.my-education-period-separator {
+  color: #000;
+}
+.my-work-experience-duties-list {
+  padding-left: 16px;
+}
+.my-work-experience-duties-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  color: #595959;
+}
+.my-work-experience-container {
+  margin-bottom: 12px;
+}
+.my-education-container {
+  font-weight: 700;
+  font-size: 16px;
+  color: #6d9bf5;
+  margin-bottom: 12px;
+}
+.my-education {
+  font-weight: 700;
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 12px;
 }
